@@ -1,0 +1,362 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Î¢ÈíÑÅºÚ";
+}
+.navbar-search .search-query {
+	border-radius: 14px;
+	width:100px;
+	
+}
+.lists a{
+	color: #333;
+}
+.lists li{
+	margin-bottom:20px;
+}
+.lists .thumbnail img {
+	display: inline-block;
+	padding: 5px;
+	height: 120px;
+	width:120px;
+}
+.lists .thumbnail .miaoshu {
+	display: inline-block;
+	vertical-align: middle;
+	height: 120px;
+}
+.lists .thumbnail .miaoshu p{
+	width:305px;
+	height:20px;
+	overflow:hidden;
+}
+ol {
+	list-style: none;
+}
+
+
+
+
+.publish-time{
+	float: right;
+}
+
+
+
+.disabled-price{
+	text-decoration: line-through;
+	/*display: none;*/
+}
+.price{
+	color:red;
+}
+
+
+
+
+/*houtai*/
+
+.bs-docs-sidenav.affix {
+top: 155px;
+}
+.bs-docs-sidenav {
+width: 240px;
+}
+.bs-docs-sidenav {
+width: 210px;
+margin: 30px 0 0;
+padding: 0;
+background-color: #fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li:first-child > a {
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+-webkit-border-radius: 0 0 6px 6px;
+-moz-border-radius: 0 0 6px 6px;
+border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > li > a {
+display: block;
+width: 190px \9;
+margin: 0 0 -1px;
+padding: 8px 14px;
+border: 1px solid #e5e5e5;
+}
+.bs-docs-sidenav .icon-chevron-right {
+float: right;
+margin-top: 2px;
+margin-right: -6px;
+opacity: .25;
+}
+
+.container-right{
+	float: right;
+	}
+.container-right .total-price{
+	display: inline-block;
+
+}
+
+
+/*buy*/
+#buy_title,#pay_title{
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+	
+}
+#buy_conten,.pay_conten,.pay_sub_conten{
+	    border: 1px solid rgba(0,0,0,0.2);
+	    border-radius: 6px;
+}
+#buy_conten
+.dropdown-menu {
+   
+
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    
+    float: left;
+    min-width: auto;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #fff;
+    border: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
+    -webkit-background-clip: none;
+    -moz-background-clip: none;
+    background-clip: none;
+    display: block;
+    position: static; 
+    width: 918px;
+}
+.buy_boder{
+	border-bottom: 1px rgba(0,0,0,0.2) solid;
+	display: block;
+	padding-bottom: 10px !important;
+	margin: 10px;
+}
+.buy_boder:last-child{
+	border-bottom: none;
+}
+.buy_total{
+	text-align: right;
+	margin: 10px;
+}
+.buy_order li,.buy_order ul{
+	margin-bottom: 0;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #515151;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none;
+}
+a{
+	color:#F89406;
+}
+.buy_final_info,.buy_submit{
+	text-align: right;
+	
+}
+.buy_add_adress{
+	float: right;
+}
+.buy_submit{
+	padding: 10px;
+}
+.buy_final_price{
+	color: red;
+	font:"arial, helvetica, sans-serif";
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+/*pay*/
+#pay_content{
+	height:400px;
+}
+.pay_conten{
+	margin: 10px 0;
+	padding:10px 0;
+}
+
+.pay_price{
+	float: right;
+}
+.pay_price strong{
+	font-size: 16px;
+	color: red;
+}
+.pay_ways{
+	display: block;
+	padding: 20px;
+}
+.pay_now{
+	padding: 20px 30px;
+	font-size: 30px;
+	margin: 0 auto;
+	display: block;
+}
+/*pay_erro*/
+#pay_erro{
+	background-color: rgba(0,0,0,0.2);
+	
+}
+
+.result-pay-box{
+	background-color: white;
+	height: 340px;
+	margin-bottom: 20px;
+}
+.result-pay-failure{
+	border-top: 5px solid orangered;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+.rp-box{
+	margin: 40px 20px 50px 20px;
+}
+#pay_erro .rp-box em{
+	font-size: 50px;
+	color: #bd362f;
+	margin: 0 20px;
+}
+
+/*pay_sub*/
+.form_eles{
+	margin: 20px;
+}
+.pay_sub_price strong{
+	font-size: 16px;
+	color: red;
+}
+.pay_sub_conten{
+	height: 350px;
+	margin-bottom: 40px;
+}
+.pay_sub_now{
+	margin: 40px auto;
+	padding: 20px 30px;
+	font-size: 30px;
+	
+	display: block;
+}
+/*pay_success*/
+#pay_success{
+	background-color: rgba(0,0,0,0.2);
+	
+}
+#pay_success .rp-box{
+	text-align: center;
+}
+#pay_success .rp-box i{
+	font-size: 50px;
+	color: #072;
+}
+
+
+/*addNew*/
+#addNew .left_label{
+	width: 120px;
+	display: inline-block;
+}
+/*update*/
+#update{
+	margin-left:150px;
+}
+#update .left_label{
+	width: 120px;
+	display: inline-block;
+	margin-right:50px;
+}
+#update #preview_size_fake{
+	width:120px;
+	height:120px;
+   border:1px #ccc solid;
+   margin-bottom:10px;
+}
+#update input{
+	height:30px;
+}
+textarea{
+	width:400px;
+	height:200px;
+}
+
+
+
+/*book-info*/
+#choose-num{
+	width:34px;
+	margin:5px;
+}
+.info-btns{
+	margin-top:100px;
+}
+#book-info-img{
+	width:300px;
+	height:300px;
+}
+
+
+/*update_pass*/
+#update_pass{
+
+	background-color: rgba(0,0,0,0.2);
+	
+}
+
+#update_pass .result-pay-box{
+	background-color: white;
+	height: 340px;
+	margin-bottom: 20px;
+}
+#update_pass .result-pay-failure{
+	border-top: 5px solid orangered;
+	border-radius: 6px;
+	margin-top: 20px;
+	padding:50px 350px;
+	
+}
+#update_pass .rp-box{
+	margin: 40px 20px 50px 20px;
+}
+#update_pass .rp-box em{
+	font-size: 50px;
+	color: #bd362f;
+	margin: 0 20px;
+}
+#update_pass label{
+	font-size:18px;
+	display:inline-block;
+	margin:10px;
+	width:100px;
+}
+#update_pass .pass-box{
+	display:inline-block;
+}
+#update_pass .pass-btns{
+	margin-right:150px;
+	float:right;
+	margin-top:50px;
+}

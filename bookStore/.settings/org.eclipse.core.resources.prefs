@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//WebContent/jsp/obligation_list.jsp=UTF-8
+encoding//src/book/filter/CharacterEncodingFilter.java=UTF-8
+encoding//src/book/servlet/AddBook.java=UTF-8
